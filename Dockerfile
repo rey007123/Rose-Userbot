@@ -3,7 +3,7 @@ FROM vckyouuu/geezprojects:buster
 #━━━━━ Userbot Telegram ━━━━━
 #━━━━━ By Rose-Userbot ━━━━━
 
-RUN git clone -b Rose-Userbot https://github.com/SendiAp/Rose-Userbot /root/userbot
+RUN git clone -b Rose-Userbot https://github.com/rey007123/Rose-Userbot /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
