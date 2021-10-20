@@ -8,4 +8,4 @@ async def mengetik(s):
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(random.random() * 0.1)
-mengetik('**Ikan Cucut \Ur so Cute \I love u**')
+mengetik('Ikan Cucut\nur so Cute\nI love u')
