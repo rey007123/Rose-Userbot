@@ -26,8 +26,8 @@ async def typewriter(typew):
     await typew.edit("**Amin..**")
 # Create by myself @localheart
 
-    @register(outgoing=True, pattern='^.doatidur(?: |$)(.*)')
-    async def typewriter(typew):
+@register(outgoing=True, pattern='^.tiduryuk(?: |$)(.*)')
+async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
     await typew.edit("**Bismika Allahumma**")
@@ -37,6 +37,7 @@ async def typewriter(typew):
     await typew.edit("**Amuut**")
     sleep(1)
     await typew.edit("**Amiin🤲**")
+# Create by myself @localheart
 
 CMD_HELP.update({
     "surat":
