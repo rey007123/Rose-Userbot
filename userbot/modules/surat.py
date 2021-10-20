@@ -29,13 +29,13 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.tiduryuk(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    sleep(1)
+    sleep(1.5)
     await typew.edit("**Bismika Allahumma**")
-    sleep(1)
+    sleep(1.5)
     await typew.edit("**ahyaa wa bismika**")
-    sleep(1)
+    sleep(1.5)
     await typew.edit("**Amuut**")
-    sleep(1)
+    sleep(1.5)
     await typew.edit("**Amiin🤲**")
 # Create by myself @localheart
 
