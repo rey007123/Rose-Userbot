@@ -64,14 +64,14 @@ async def get_users(event):
     f = 0
     error = 'None'
 
-    await geez.edit("**TerminalStatus**\n\n`Collecting Users.......`")
+    await geez.edit("**Status Sedang mencari mangsa**\n\n`menculik`")
     async for user in event.client.iter_participants(geezteam.full_chat.id):
         try:
             if error.startswith("Too"):
-                return await geez.edit(f"**Terminal Finished With Error**\n(`May Got Limit Error from telethon Please try agin Later`)\n**Error** : \n`{error}`\n\n• TerMaling `{s}` Orang \n• GagalMaling `{f}` orang")
+                return await geez.edit(f"**Menculik selesai With Error**\n(`Dapat peringatan dari orangtuanya`)\n**Error** : \n`{error}`\n\n• TerMaling `{s}` Orang \n• GagalMaling `{f}` orang")
             await event.client(functions.channels.InviteToChannelRequest(channel=chat, users=[user.id]))
             s = s + 1
-            await geez.edit(f"**Terminal Running...**\n\n• Maling `{s}` Orang \n• GagalMaling `{f}` orang\n\n**× LastError:** `{error}`")
+            await geez.edit(f"**Processing Penculikan...**\n\n• Maling `{s}` Orang \n• GagalMaling `{f}` orang\n\n**× Penculikan Error:** `{error}`")
         except Exception as e:
             error = str(e)
             f = f + 1
