@@ -28,6 +28,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.akwokwok(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
+    number = 1
     await typew.edit(str(number) + "I")
     number = number + 1
     sleep(0.02)
