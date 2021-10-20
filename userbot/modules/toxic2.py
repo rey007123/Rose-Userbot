@@ -112,13 +112,13 @@ async def typewriter(typew):
     sleep(0.02)
     await typew.edit(str(number) + "Indahnya Lautan tak Seindah Dirim")
     number = number + 1
-    sleep(0.02)
+    sleep(0.05)
     await typew.edit(str(number) + "Indahnya Lautan tak Seindah Dirimu")
-    sleep(1.2)
+    sleep(1.5)
     await typew.edit("`Manisnya Gula tak Semanis Dirimu`")
-    sleep(1.2)
+    sleep(1.5)
     await typew.edit("Tetapi di balik Kelebihan ada Kekurangan Dirimu")
-    sleep(1.2)
+    sleep(1.5)
     await typew.edit("Salah Satunya Kuningnya Gigimu xixixixqqqq :v ")
 
     
