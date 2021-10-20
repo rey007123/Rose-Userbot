@@ -3,81 +3,124 @@ from userbot import CMD_HELP
 from userbot.events import register
 
 
-@register(outgoing=True, pattern='^.ngentot(?: |$)(.*)')
+@register(outgoing=True, pattern='^.lewat(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    sleep(1)
-    await typew.edit("**WOYY NGENTOD!!**")
-    sleep(1)
-    await typew.edit("**JANGAN SOK JAGOAN DAH LU**")
-    sleep(1)
-    await typew.edit("**MUKA MASIH KAYA KONTOL AJA**")
-    sleep(1)
-    await typew.edit("**BANGGA LU HAHAHAHA**")
-    sleep(1)
-    await typew.edit("**COBA DEH NGACA MUKA LU KAN HINA BANGET**")
-    sleep(1)
-    await typew.edit("**HAHAHAHA**")
-    sleep(1)
-    await typew.edit("**MAKANYA GANTENG KONTOL**")
-    sleep(1)
-    await typew.edit("**BIAR MUKALU GAK DIHINA TERUS**")
-    sleep(1)
-    await typew.edit("**SAMA ORANG LAIN**")
-    sleep(1)
-    await typew.edit("**HAHAHAHA**")
+    sleep(1.2)
+    await typew.edit("**Ikan Bandeng**")
+    sleep(1.2)
+    await typew.edit("**Makan Kawat**")
+    sleep(1.2)
+    await typew.edit("**Misii Orang ganteng mau lewat 🤗**")
 # Create by myself @localheart
 
 
-@register(outgoing=True, pattern='^.goblok(?: |$)(.*)')
+@register(outgoing=True, pattern='^.ndaklevel(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    sleep(1)
-    await typew.edit("**WOYY GOBLOK!!**")
-    sleep(1)
-    await typew.edit("**KO LU GOBLOK BANGET SIH**")
-    sleep(1)
-    await typew.edit("**OTAK LU TUH KAYA KONTOL**")
-    sleep(1)
-    await typew.edit("**YANG LEMBEK KETIKA LEMAH**")
-    sleep(1)
-    await typew.edit("**DAN KERAS KETIKA LU SANGE GOBLOK**")
-    sleep(1)
-    await typew.edit("**HAHAHAHA**")
-    sleep(1)
-    await typew.edit("**MAKANYA JANGAN SANGEAN MULU**")
-    sleep(1)
-    await typew.edit("**MUKA LU AJA KAYA ASPAL JALANAN**")
-    sleep(1)
-    await typew.edit("**EHHH SANGE NYA MAU DAPAT YANG CANTIK**")
-    sleep(1)
-    await typew.edit("**HAHAHAHA**")
+    sleep(1.3)
+    await typew.edit("**Buah Apel di Air Payau**")
+    sleep(1.3)
+    await typew.edit("**Ndak Level LahYauuuu**")
 # Create by myself @localheart
 
 
-@register(outgoing=True, pattern='^.ngatain(?: |$)(.*)')
+@register(outgoing=True, pattern='^.akwokwok(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    sleep(1)
-    await typew.edit("**BABI!!**")
-    sleep(1)
-    await typew.edit("**MUKA LU KAYA BABI**")
-    sleep(1)
-    await typew.edit("**OTAK LU TUH KAYA KONTOL**")
-    sleep(1)
-    await typew.edit("**MUKA LU HINA BANGET**")
-    sleep(1)
-    await typew.edit("**OTAK LU KAYA BATU**")
-    sleep(1)
-    await typew.edit("**HAHAHAHA**")
-    sleep(1)
-    await typew.edit("**MAKANYA JANGAN SANGEAN MULU**")
-    sleep(1)
-    await typew.edit("**KONTOL LU AJA MASIH BENGKOK**")
-    sleep(1)
-    await typew.edit("**EHHH SANGE NYA MAU DAPAT YANG CANTIK**")
-    sleep(1)
-    await typew.edit("**HAHAHAHA**")
+    await typew.edit(str(number) + "I")
+    number = number + 1
+    sleep(0.02)
+    await typew.edit(str(number) + "In")
+    number = number + 1
+    sleep(0.02)
+    await typew.edit(str(number) + "Ind")
+    number = number + 1
+    sleep(0.02)
+    await typew.edit(str(number) + "Inda")
+    number = number + 1
+    sleep(0.02)
+    await typew.edit(str(number) + "Indah")
+    number = number + 1
+    sleep(0.02)
+    await typew.edit(str(number) + "Indahn")
+    number = number + 1
+    sleep(0.02)
+    await typew.edit(str(number) + "Indahny")
+    number = number + 1
+    sleep(0.02)
+    await typew.edit(str(number) + "Indahnya")
+    number = number + 1
+    sleep(0.02)
+    await typew.edit(str(number) + "Indahnya L")
+    number = number + 1
+    sleep(0.02)
+    await typew.edit(str(number) + "Indahnya La")
+    number = number + 1
+    sleep(0.02)
+    await typew.edit(str(number) + "Indahnya Lau")
+    number = number + 1
+    sleep(0.02)
+    await typew.edit(str(number) + "Indahnya Laut")
+    number = number + 1
+    sleep(0.02)
+    await typew.edit(str(number) + "Indahnya Lauta")
+    number = number + 1
+    sleep(0.02)
+    await typew.edit(str(number) + "Indahnya Lautan")
+    number = number + 1
+    sleep(0.02)
+    await typew.edit(str(number) + "Indahnya Lautan t")
+    number = number + 1
+    sleep(0.02)
+    await typew.edit(str(number) + "Indahnya Lautan ta")
+    number = number + 1
+    sleep(0.02)
+    await typew.edit(str(number) + "Indahnya Lautan tak")
+    number = number + 1
+    sleep(0.02)
+    await typew.edit(str(number) + "Indahnya Lautan tak S")
+    number = number + 1
+    sleep(0.02)
+    await typew.edit(str(number) + "Indahnya Lautan tak Se")
+    number = number + 1
+    sleep(0.02)
+    await typew.edit(str(number) + "Indahnya Lautan tak Sei")
+    number = number + 1
+    sleep(0.02)
+    await typew.edit(str(number) + "Indahnya Lautan tak Sein")
+    number = number + 1
+    sleep(0.02)
+    await typew.edit(str(number) + "Indahnya Lautan tak Seind")
+    number = number + 1
+    sleep(0.02)
+    await typew.edit(str(number) + "Indahnya Lautan tak Seinda")
+    number = number + 1
+    sleep(0.02)
+    await typew.edit(str(number) + "Indahnya Lautan tak Seindah D")
+    number = number + 1
+    sleep(0.02)
+    await typew.edit(str(number) + "Indahnya Lautan tak Seindah Di")
+    number = number + 1
+    sleep(0.02)
+    await typew.edit(str(number) + "Indahnya Lautan tak Seindah Dir")
+    number = number + 1
+    sleep(0.02)
+    await typew.edit(str(number) + "Indahnya Lautan tak Seindah Diri")
+    number = number + 1
+    sleep(0.02)
+    await typew.edit(str(number) + "Indahnya Lautan tak Seindah Dirim")
+    number = number + 1
+    sleep(0.02)
+    await typew.edit(str(number) + "Indahnya Lautan tak Seindah Dirimu")
+    sleep(1.2)
+    await typew.edit("`Manisnya Gula tak Semanis Dirimu`")
+    sleep(1.2)
+    awaiy typew.edit("Tetapi di balik Kelebihan ada Kekurangan Dirimu")
+    sleep(1.2)
+    awaiy typew.edit("Salah Satunya Kuningnya Gigimu xixixixqqqq :v ")
+
+    
 # Create by myself @localheart
 
 CMD_HELP.update({
