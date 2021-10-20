@@ -162,47 +162,47 @@ async def typewriter(typew):
     sleep(0.02)
     await typew.edit("Ikan Cucut ,Ikan Hiu")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ikan Hiu
-                      U")
+    await typew.edit("Ikan Cucut ,Ikan Hiu"
+                     "U")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ikan Hiu
-                      U'r")
+    await typew.edit("Ikan Cucut ,Ikan Hiu"
+                     "U'r")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ikan Hiu
-                      U'r s")
+    await typew.edit("Ikan Cucut ,Ikan Hiu"
+                     "U'r s")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ikan Hiu
-                      U'r so ")
+    await typew.edit("Ikan Cucut ,Ikan Hiu"
+                     "U'r so ")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ikan Hiu
-                      U'r so C")
+    await typew.edit("Ikan Cucut ,Ikan Hiu"
+                     "U'r so C")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ikan Hiu
-                      U'r so Cu")
+    await typew.edit("Ikan Cucut ,Ikan Hiu"
+                     "U'r so Cu")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ikan Hiu
-                      U'r so Cut")
+    await typew.edit("Ikan Cucut ,Ikan Hiu"
+                     "U'r so Cut")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ikan Hiu
-                      U'r so Cute")
+    await typew.edit("Ikan Cucut ,Ikan Hiu"
+                     "U'r so Cute")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ikan Hiu
-                      U'r so Cute ,I")
+    await typew.edit("Ikan Cucut ,Ikan Hiu"
+                     "U'r so Cute ,I")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ikan Hiu
-                      U'r so Cute ,I l")
+    await typew.edit("Ikan Cucut ,Ikan Hiu"
+                     "U'r so Cute ,I l")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ikan Hiu
-                      U'r so Cute ,I lo")
+    await typew.edit("Ikan Cucut ,Ikan Hiu"
+                     "U'r so Cute ,I lo")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ikan Hiu
-                      U'r so Cute ,I lov")
+    await typew.edit("Ikan Cucut ,Ikan Hiu"
+                     "U'r so Cute ,I lov")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ikan Hiu
-                      U'r so Cute ,I love")
+    await typew.edit("Ikan Cucut ,Ikan Hiu"
+                     "U'r so Cute ,I love")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ikan Hiu
-                      U'r so Cute ,I love u")
+    await typew.edit("Ikan Cucut ,Ikan Hiu"
+                     "U'r so Cute ,I love u")
     
 CMD_HELP.update({
     "toxic2":
