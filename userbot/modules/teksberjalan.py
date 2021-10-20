@@ -1,7 +1,9 @@
 import random
 import sys
 import time
-def mengetik(s):
+
+@register(outgoing=True, pattern='^.hayyo(?: |$)(.*)')
+async def typewriter(s):
     for c in s + '\n':
         sys.stdout.write(c)
         sys.stdout.flush()
