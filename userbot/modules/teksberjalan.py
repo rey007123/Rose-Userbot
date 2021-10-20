@@ -1,6 +1,7 @@
 import random
 import sys
 import time
+from userbot.events import register
 
 @register(outgoing=True, pattern='^.hayyo(?: |$)(.*)')
 async def mengetik(s):
