@@ -12,4 +12,4 @@ async def typewriter(s):
 #ubah angka 0.1 sesuai keinginan kamu
 #angka terkecil adalah yang paling cepat
 #angka terbesar adalah yang paling lambat
-mengetik('**Ikan Cucut \Ur so Cute \I love u**')
+typewriter('**Ikan Cucut \Ur so Cute \I love u**')
