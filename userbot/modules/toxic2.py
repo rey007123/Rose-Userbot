@@ -116,9 +116,9 @@ async def typewriter(typew):
     sleep(1.2)
     await typew.edit("`Manisnya Gula tak Semanis Dirimu`")
     sleep(1.2)
-    awaiy typew.edit("Tetapi di balik Kelebihan ada Kekurangan Dirimu")
+    await typew.edit("Tetapi di balik Kelebihan ada Kekurangan Dirimu")
     sleep(1.2)
-    awaiy typew.edit("Salah Satunya Kuningnya Gigimu xixixixqqqq :v ")
+    await typew.edit("Salah Satunya Kuningnya Gigimu xixixixqqqq :v ")
 
     
 # Create by myself @localheart
