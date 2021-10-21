@@ -148,60 +148,60 @@ async def typewriter(typew):
     sleep(0.02)
     await typew.edit("Ikan Cucut ,")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,I")
+    await typew.edit("Ikan Cucut , I")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ik")
+    await typew.edit("Ikan Cucut , Ik")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ika")
+    await typew.edit("Ikan Cucut , Ika")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ikan")
+    await typew.edit("Ikan Cucut , Ikan")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ikan H")
+    await typew.edit("Ikan Cucut , Ikan H")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ikan Hi")
+    await typew.edit("Ikan Cucut , Ikan Hi")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ikan Hiu")
+    await typew.edit("Ikan Cucut , Ikan Hiu")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ikan Hiu"
+    await typew.edit("Ikan Cucut , Ikan Hiu"
                      "U")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ikan Hiu"
+    await typew.edit("Ikan Cucut , Ikan Hiu"
                      "U'r")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ikan Hiu"
+    await typew.edit("Ikan Cucut , Ikan Hiu"
                      "U'r s")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ikan Hiu"
+    await typew.edit("Ikan Cucut , Ikan Hiu"
                      "U'r so ")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ikan Hiu"
+    await typew.edit("Ikan Cucut , Ikan Hiu"
                      "U'r so C")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ikan Hiu"
+    await typew.edit("Ikan Cucut , Ikan Hiu"
                      "U'r so Cu")
     sleep(0.02)
     await typew.edit("Ikan Cucut ,Ikan Hiu"
                      "U'r so Cut")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ikan Hiu"
+    await typew.edit("Ikan Cucut , Ikan Hiu"
                      "U'r so Cute")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ikan Hiu"
+    await typew.edit("Ikan Cucut , Ikan Hiu"
                      "U'r so Cute ,I")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ikan Hiu"
+    await typew.edit("Ikan Cucut , Ikan Hiu"
                      "U'r so Cute ,I l")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ikan Hiu"
+    await typew.edit("Ikan Cucut , Ikan Hiu"
                      "U'r so Cute ,I lo")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ikan Hiu"
+    await typew.edit("Ikan Cucut , Ikan Hiu"
                      "U'r so Cute ,I lov")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ikan Hiu"
+    await typew.edit("Ikan Cucut , Ikan Hiu"
                      "U'r so Cute ,I love")
     sleep(0.02)
-    await typew.edit("Ikan Cucut ,Ikan Hiu"
+    await typew.edit("Ikan Cucut , Ikan Hiu"
                      "U'r so Cute ,I love u")
     
 CMD_HELP.update({
