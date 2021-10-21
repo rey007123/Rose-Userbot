@@ -15,4 +15,4 @@ async def typewriter(typew):
 
 CMD_HELP.update({
     "coba":
-    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.coba`\
+    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.cobadulu`\
