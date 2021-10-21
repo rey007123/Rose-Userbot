@@ -207,9 +207,5 @@ async def typewriter(typew):
 CMD_HELP.update({
     "toxic2":
     "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.ngentot`\
-    \n↳ : Lu Coba Sendiri Aja."
-    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.goblok`\
-    \n↳ : Lu Coba Sendiri Aja."
-    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.ngatain`\
-    \n↳ : Lu Coba Sendiri Aja."
+    "
 })
