@@ -203,6 +203,23 @@ async def typewriter(typew):
     sleep(0.02)
     await typew.edit("Ikan Cucut , Ikan Hiu"
                      "U'r so Cute ,I love u")
+
+@register(outgoing=True, pattern='^.sabar(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("`Sabar aja lah ya`")
+    sleep(0.7)
+    await typew.edit("`\Sabar aja lah ya`"
+                     "`\Hati kamu itu kan kaya Tango`")
+    sleep(0.7)
+    await typew.edit("`\Sabar aja lah ya`"
+                     "`\Hati kamu itu kan kaya Tango`"
+                     "`\Berapa lapis?`")
+    sleep(0.7)
+    await typew.edit("`\Sabar aja lah ya`"
+                     "`\Hati kamu itu kan kaya Tango`"
+                     "`\Berapa lapis?`"
+                     "`\Ratusan😅`")
     
 CMD_HELP.update({
     "toxic2":
