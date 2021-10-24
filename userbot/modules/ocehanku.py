@@ -20,6 +20,8 @@ async def typewriter(typew):
                      "`\Berapa lapis?`"
                      "`\Ratusan😅`")
 
+CMD_HELP.update({
     
-
+"𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sabar`\
+    \n↳ : Sabaro\
 })            
