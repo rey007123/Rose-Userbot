@@ -471,3 +471,4 @@ CMD_HELP.update({
         \nUsage: Balas Ke Sticker/Gambar/Gif."
         "`.mmf5 Teks Atas ; Teks Bawah`\
         \nUsage: Balas Ke Sticker/Gambar/Gif."
+})
