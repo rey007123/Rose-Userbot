@@ -215,15 +215,15 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/9efffff07146de635716b.mp4"
+    "ALIVE_LOGO") or "https://telegra.ph/file/38c48dbbb7ff4dece51a7.jpg"
 
 # Default .helpme Logo
 INLINE_PIC = os.environ.get(
-    "INLINE_PIC") or "https://telegra.ph/file/9efffff07146de635716b.mp4"
+    "INLINE_PIC") or "https://telegra.ph/file/38c48dbbb7ff4dece51a7.jpg"
 
 # Default Video welcome
 WELCOME_PIC = os.environ.get(
-    "WELCOME_PIC") or "https://telegra.ph/file/be04a599afd4a1a3fa934.mp4"
+    "WELCOME_PIC") or "https://telegra.ph/file/38c48dbbb7ff4dece51a7.jpg"
 
 # Default emoji help
 EMOJI_HELP = os.environ.get("EMOJI_HELP") or "🌹"
@@ -235,7 +235,7 @@ BOT_USERYOU = os.environ.get("BOT_USERYOU") or "t.me/rose_01_bot"
 IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/ndiap04"
 
 # °ROSE-USERBOT°
-OWNER_URL = os.environ.get("OWNER_URL") or "https://t.me/pikyus1"
+OWNER_URL = os.environ.get("OWNER_URL") or 
 
 # °ROSE-USERBOT°
 CHANNEL_URL = os.environ.get("CHANNEL_URL") or "https://t.me/fckyoupeople1"
@@ -568,7 +568,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid:
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"🌹འօʂҽ-Աʂҽɾҍօէ🌹\n\n**🅼🅰🅸🅽 🅼🅴🅽🆄**\n\n❥ **Bᴏᴛ Oғ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 5.0\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)} "
+                text = f" 💤\n\n**🅼🅰🅸🅽 🅼🅴🅽🆄**\n\n❥ **Bᴏᴛ Oғ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 5.0\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)} "
                 await event.edit(text,
                                  file=roselogo,
                                  buttons=buttons,
@@ -620,10 +620,10 @@ with bot:
                             Button.inline("ᴏᴡɴᴇʀ ᴛᴏᴏʟꜱ ✨", data="owner_tools"),
                             Button.inline("ᴄᴏᴍᴍᴀɴᴅ ʙᴏᴛ ⚙️", data="pmon_pmof"),
                         ],
-                        [Button.inline("🌹 ʀᴏꜱᴇ ᴜꜱᴇʀʙᴏᴛ 🌹", data="userbot_support")],
+                        [Button.inline("💤 ", data="userbot_support")],
                     ]
                 )
-            else:
+            else
                 reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nHanya {DEFAULTUSER}Yang Bisa Menekan Tombol Ini, Deploy Rose Userbot Untuk Mengetahui Fitur Nya."
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
@@ -795,8 +795,7 @@ with bot:
                     f"✘ **Command :**\n"
                     f"`.set pm_msg`  <teks>\n\n"
                     f"✘ **SetVars :**\n"
-                    f"`.set var PM_AUTO_BAN True`\n\n"
-                    f"© @Rose_Userbot")
+                    f"`.set var PM_AUTO_BAN True`\n\n")
                 await event.edit(
                     text,
                     file=roselogo,
@@ -831,8 +830,7 @@ with bot:
                     f"`.helpme`\n\n"
                     f"✘ **SetVars :**\n"
                     f"`.set var INLINE_PIC` <link>\n"
-                    f"`.set var EMOJI_HELP` <emoji>\n\n"
-                    f"© @Rose_Userbot")
+                    f"`.set var EMOJI_HELP` <emoji>\n\n")
                 await event.edit(
                     text,
                     file=roselogo,
@@ -917,14 +915,12 @@ with bot:
             if event.query.user_id == uid:
                 text = (
                     f"**{ROSE_TEKS_KUSTOM}**\n\n"
-                    f"┏━━━━━━━━━━━━━━━━━━━━━\n"
+                    f"┏®®®®®®®®®®®®••••••••••••••\n"
                     f"┣ **Pemilik** - `{DEFAULTUSER}`\n"
-                    f"┣ **Versi** - `5.0`\n"
-                    f"┣ **Groups** - @Rose_Userbot\n"
                     f"┣ **Bahasa** - `Python`\n"
-                    f"┣ **Branch** - `Rose-Userbot`\n"
+                    f"┣ **Branch** - `ReiiUbot💤`\n"
                     f"┣ **Modules** - `170`\n"
-                    f"┗━━━━━━━━━━━━━━━━━━━━━")
+                    f"┗®®®®®®®®®®®®®•••••••••••••")
                 await event.edit(
                     text,
                     file=roselogo,
@@ -1023,21 +1019,21 @@ with bot:
                 result = builder.photo(
                     file=roselogo,
                     link_preview=False,
-                    text=f"🌹འօʂҽ-Աʂҽɾҍօէ🌹\n\n**🅼🅰🅸🅽 🅼🅴🅽🆄**\n\n❥ **Bᴏᴛ Oғ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 5.0\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}".format(
+                    text=f"💤\n\n**🅼🅰🅸🅽 🅼🅴🅽🆄**\n\n❥ **Bᴏᴛ Oғ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 5.0\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari 🌹འօʂҽ-Աʂҽɾҍօէ🌹 ",
+                    "Bantuan Dari 💤",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " 🌹འօʂҽ-Աʂҽɾҍօէ🌹 ",
-                    text="""°ROSE-USERBOT°""",
+                    " 💤 ",
+                    text="""°RE-USERBOT°""",
                     buttons=[
                         [
                             custom.Button.url(
