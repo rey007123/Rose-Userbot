@@ -623,7 +623,7 @@ with bot:
                         [Button.inline("💤 ", data="userbot_support")],
                     ]
                 )
-            else
+            else:
                 reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nHanya {DEFAULTUSER}Yang Bisa Menekan Tombol Ini, Deploy Rose Userbot Untuk Mengetahui Fitur Nya."
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
