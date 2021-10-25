@@ -235,7 +235,7 @@ BOT_USERYOU = os.environ.get("BOT_USERYOU") or "t.me/rose_01_bot"
 IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/ndiap04"
 
 # °ROSE-USERBOT°
-OWNER_URL = os.environ.get("OWNER_URL") or 
+OWNER_URL = os.environ.get("OWNER_URL")
 
 # °ROSE-USERBOT°
 CHANNEL_URL = os.environ.get("CHANNEL_URL") or "https://t.me/fckyoupeople1"
