@@ -62,9 +62,9 @@ async def set_afk(afk_e):
     afk_start = start_1.replace(microsecond=0)
     if string:
         AFKREASON = string
-        await afk_e.edit(f"🔥𝙋𝙀𝙎𝘼𝙉 𝙊𝙏𝙊𝙈𝘼𝙏𝙄𝙎\n╭;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉; \n┣ {ALIVE_NAME} ᴀꜰᴋ ᴅᴜʟᴜ\n┣ ᴀʟᴀꜱᴀɴ : {AFKREASON}\n╰;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;")
+        await afk_e.edit(f"🔥𝙋𝙀𝙎𝘼𝙉 𝙊𝙏𝙊𝙈𝘼𝙏𝙄𝙎\n╭;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;; \n┣ {ALIVE_NAME} ᴀꜰᴋ ᴅᴜʟᴜ\n┣ ᴀʟᴀꜱᴀɴ : {AFKREASON}\n╰;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉")
     else:
-        await afk_e.edit(" Lagi Sibuk 🥺 \n╭;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉; \n┣ ᴊᴀɴɢᴀɴ ᴅɪᴄᴀʀɪ ✨\n╰;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;")
+        await afk_e.edit(" Lagi Sibuk 🥺 \n╭;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉; \n┣ ᴊᴀɴɢᴀɴ ᴅɪᴄᴀʀɪ ✨\n╰;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉")
     if user.last_name:
         await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name))
     else:
@@ -97,7 +97,7 @@ async def type_afk_is_not_true(notafk):
     afk_end = back_alive.replace(microsecond=0)
     if ISAFK:
         ISAFK = False
-        msg = await notafk.respond("😉𝙊𝙉𝙇𝙄𝙉𝙀")
+        msg = await notafk.respond("😉【﻿ＡｙｅｍＫｏｍｂｅｋ】")
         time.sleep(3)
         await msg.delete()
         await notafk.client(UpdateProfileRequest(first_name=user.first_name, last_name=last1))
@@ -165,7 +165,7 @@ async def mention_afk(mention):
                 afk_since = f"`{int(seconds)} Detik`"
             if mention.sender_id not in USERS:
                 if AFKREASON:
-                    await mention.reply(f" ʟᴀɢɪ ꜱɪʙᴜᴋ😉\n╭╼;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉; \n┣ {ALIVE_NAME} ꜱᴇᴅᴀɴɢ ꜱɪʙᴜᴋ\n┣ ꜱᴇᴊᴀᴋ: {afk_since}\n┣ ᴀʟᴀꜱᴀɴ: {AFKREASON}\n╰;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;")
+                    await mention.reply(f" ʟᴀɢɪ ꜱɪʙᴜᴋ😉\n╭╼;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉ \n┣ {ALIVE_NAME} ꜱᴇᴅᴀɴɢ ꜱɪʙᴜᴋ\n┣ ꜱᴇᴊᴀᴋ: {afk_since}\n┣ ᴀʟᴀꜱᴀɴ: {AFKREASON}\n╰;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉")
                 else:
                     await mention.reply(str(choice(AFKSTR)))
                 USERS.update({mention.sender_id: 1})
@@ -173,7 +173,7 @@ async def mention_afk(mention):
             elif mention.sender_id in USERS:
                 if USERS[mention.sender_id] % randint(2, 4) == 0:
                     if AFKREASON:
-                        await mention.reply(f"😉𝙋𝙀𝙎𝘼𝙉 𝙊𝙏𝙊𝙈𝘼𝙏𝙄𝙎\n╭╼;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉; \n┣ {ALIVE_NAME} ꜱᴇᴅᴀɴɢ ᴀꜰᴋ\n┣ ꜱᴇᴊᴀᴋ: {afk_since}\n┣ ᴀʟᴀꜱᴀɴ: {AFKREASON}\n╰;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;")
+                        await mention.reply(f"😉𝙋𝙀𝙎𝘼𝙉 𝙊𝙏𝙊𝙈𝘼𝙏𝙄𝙎\n╭╼;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉ \n┣ {ALIVE_NAME} ꜱᴇᴅᴀɴɢ ᴀꜰᴋ\n┣ ꜱᴇᴊᴀᴋ: {afk_since}\n┣ ᴀʟᴀꜱᴀɴ: {AFKREASON}\n╰;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉")
                     else:
                         await mention.reply(str(choice(AFKSTR)))
                     USERS[mention.sender_id] = USERS[mention.sender_id] + 1
@@ -240,7 +240,7 @@ async def afk_on_pm(sender):
                 afk_since = f"`{int(seconds)} Detik`"
             if sender.sender_id not in USERS:
                 if AFKREASON:
-                    await sender.reply(f"😉𝙋𝙀𝙎𝘼𝙉 𝙊𝙏𝙊𝙈𝘼𝙏𝙄𝙎\n╭;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉; \n┣ {ALIVE_NAME} ꜱᴇᴅᴀɴɢ ᴀꜰᴋ\n┣ ꜱᴇᴊᴀᴋ: {afk_since}\n┣ ᴀʟᴀꜱᴀɴ: {AFKREASON}\n╰;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;")
+                    await sender.reply(f"😉𝙋𝙀𝙎𝘼𝙉 𝙊𝙏𝙊𝙈𝘼𝙏𝙄𝙎\n╭;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉ \n┣ {ALIVE_NAME} ꜱᴇᴅᴀɴɢ ᴀꜰᴋ\n┣ ꜱᴇᴊᴀᴋ: {afk_since}\n┣ ᴀʟᴀꜱᴀɴ: {AFKREASON}\n╰;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉")
                 else:
                     await sender.reply(str(choice(AFKSTR)))
                 USERS.update({sender.sender_id: 1})
@@ -248,7 +248,7 @@ async def afk_on_pm(sender):
             elif apprv and sender.sender_id in USERS:
                 if USERS[sender.sender_id] % randint(2, 4) == 0:
                     if AFKREASON:
-                        await sender.reply(f"😉𝙋𝙀𝙎𝘼𝙉 𝙊𝙏𝙊𝙈𝘼𝙏𝙄𝙎\n╭;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉; \n┣ {ALIVE_NAME} ꜱᴇᴅᴀɴɢ ᴀꜰᴋ\n┣ ꜱᴇᴊᴀᴋ: {afk_since}\n┣ ᴀʟᴀꜱᴀɴ: {AFKREASON}\n╰;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;")
+                        await sender.reply(f"😉𝙋𝙀𝙎𝘼𝙉 𝙊𝙏𝙊𝙈𝘼𝙏𝙄𝙎\n╭;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉ \n┣ {ALIVE_NAME} ꜱᴇᴅᴀɴɢ ᴀꜰᴋ\n┣ ꜱᴇᴊᴀᴋ: {afk_since}\n┣ ᴀʟᴀꜱᴀɴ: {AFKREASON}\n╰;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉;҉")
                     else:
                         await sender.reply(str(choice(AFKSTR)))
                     USERS[sender.sender_id] = USERS[sender.sender_id] + 1
